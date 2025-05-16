@@ -54,17 +54,18 @@ end
 
 function utils.gravityPresets()
     return {
-        { key = "zero",    value = 0, },
-        { key = "pluto",   value = -0.58, },
-        { key = "moon",    value = -1.62, },
-        { key = "mars",    value = -3.71, },
-        { key = "mercury", value = -3.7, },
-        { key = "uranus",  value = -8.87, },
-        { key = "earth",   value = -9.81,  default = true },
-        { key = "saturn",  value = -10.44, },
-        { key = "neptune", value = -11.15, },
-        { key = "jupiter", value = -24.92, },
-        { key = "sun",     value = -274, },
+        { key = "negative_earth", value = 9.81 },
+        { key = "zero",           value = 0, },
+        { key = "pluto",          value = -0.58, },
+        { key = "moon",           value = -1.62, },
+        { key = "mars",           value = -3.71, },
+        { key = "mercury",        value = -3.7, },
+        { key = "uranus",         value = -8.87, },
+        { key = "earth",          value = -9.81,  default = true },
+        { key = "saturn",         value = -10.44, },
+        { key = "neptune",        value = -11.15, },
+        { key = "jupiter",        value = -24.92, },
+        { key = "sun",            value = -274, },
     }
 end
 

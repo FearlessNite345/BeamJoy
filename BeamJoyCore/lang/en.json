@@ -431,6 +431,7 @@
     },
     "presets": {
       "gravity": {
+        "negative_earth": "Negative Earth",
         "zero": "Zero",
         "pluto": "Pluto",
         "moon": "Moon",
